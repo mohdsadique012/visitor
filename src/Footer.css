@@ -1,0 +1,105 @@
+.footer{
+    width: 100%;
+    height: 30rem;
+    display: flex;
+   justify-content: space-around;
+    background-image: url('https://www.shutterstock.com/image-illustration/abstract-light-sky-blue-shades-260nw-1268862877.jpg');
+   
+    background-size: cover;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.footerimg{
+    height: 10rem;
+    width: 10rem;
+}
+.footerimg-demo{
+    height: 14rem;
+    width: 10rem;
+}
+.footer-box-detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  
+}
+.footer-box-demo{
+    background-color: white;
+    box-shadow: rgb(21, 158, 255) 0px 13px 20px -5px, rgb(21, 158, 255) 0px 8px 10px -8px;
+  
+    border-radius: 2rem;
+    margin-left: 4rem;
+}
+.footer-card{
+    background-color: white;
+    box-shadow: rgb(21, 158, 255) 0px 13px 20px -5px, rgb(21, 158, 255) 0px 8px 10px -8px;
+     height: 20rem;
+     margin-right: 4rem;
+     width: 17.5rem;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 2rem;
+}
+.footer-card-demo{
+    background-color: white;
+    box-shadow: rgb(21, 158, 255) 0px 13px 20px -5px, rgb(21, 158, 255) 0px 8px 10px -8px;
+     height: 20rem;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 2rem;
+}
+.footer-button{
+    width: 7rem;
+    height: 3rem;
+    margin-bottom: 1rem;
+    border-radius: 2rem;
+    font-size: x-large;
+    font-style: italic  ;
+    background-color: rgb(73, 8, 251);
+    color: white;
+   
+
+}
+.ftb1{
+  
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+.ftb2{
+    width: 10rem;
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+.footer-p{
+    background-color: rgb(73, 8, 251);
+    color: white;
+    border-radius: 2rem;
+    padding: 1rem;
+    font-size: large;
+    font-weight: bolder;
+    width: 10rem;
+    padding-left: 4rem;
+}
+.footer-c{
+    padding: 3px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: gray;
+    font-style: italic;
+
+}
+.footer-n{
+   
+  font-weight: bold;
+    font-size: 1.3rem;
+    color: gray;
+}

@@ -1,0 +1,46 @@
+.feature-flex-row{
+    display: flex;
+    flex-direction: row;
+}
+.fbg{
+     background-image: url('https://img.freepik.com/free-vector/abstract-watercolor-pastel-background_87374-139.jpg');
+    background-size: cover;
+  
+}
+.feature-title{
+    display: flex;
+    justify-content: center;
+}
+.feature-title-h{
+    font-style: italic;
+    background: linear-gradient(to bottom, #3357f7 0%, #1abcfce7 50%, #3e51ff 100%);
+    background-clip: text;
+    -webkit-background-clip: text; 
+    color: transparent;
+    text-fill-color: transparent;
+}
+.feature-p{
+    font-size: x-large;
+    color: rgb(8, 113, 161);
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 3rem;
+   
+}
+.feature-flex-column{
+  display: flex;
+  flex-direction: column;
+}
+.feature-img{
+    width: 40rem;
+    height:30rem;
+    box-shadow: rgba(17, 138, 230, 0.963) 0px 50px 100px -20px, rgba(40, 43, 229, 0.912) 0px 30px 60px -30px;
+}
+.feature-box{
+
+ 
+}
+.feature-p-box{
+    padding: 3rem;
+    
+}

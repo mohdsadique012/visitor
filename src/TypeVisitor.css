@@ -1,0 +1,57 @@
+.type-flex{
+    
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    margin-top: 12rem;
+    margin-bottom: 12rem;
+    padding: 2rem;
+    background-image: url('https://www.shutterstock.com/image-illustration/abstract-light-sky-blue-shades-260nw-1268862877.jpg');
+    background-size: cover;
+   border-radius: 9rem;
+    padding-bottom: 6rem;
+    box-shadow: rgb(21, 158, 255) 0px 13px 20px -5px, rgb(21, 158, 255) 0px 8px 10px -8px;
+}
+.type-h{
+    background: linear-gradient(to bottom, #3357f7 0%, #1abcfc 50%, #043d93ea 100%);
+    background-clip: text;
+    -webkit-background-clip: text; 
+    color: transparent;
+    text-fill-color: transparent;
+    font-family: 'Times New Roman', Times, serif;
+}
+.type-small{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-items: center;
+    margin-top: 3rem;
+    
+}
+.type-box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+}
+
+.type-title h1{
+    text-align: center;
+}
+.type-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(88, 61, 65)
+
+}
+.type-pad{
+   
+    margin-top: 4rem;
+}
+.type-image{
+    width: 4rem;
+    height: 4rem;
+}

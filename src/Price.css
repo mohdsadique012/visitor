@@ -1,0 +1,125 @@
+.plan_section{
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+    margin: 5rem;
+}
+
+.plans{
+    width: 50%;
+    /* height: 200px; */
+    border: black 1px;
+    padding-bottom: 5rem;
+    /* background-image: url('https://www.shutterstock.com/image-illustration/abstract-light-sky-blue-shades-260nw-1268862877.jpg');
+    background-size: cover; */
+    margin-top: 2rem;
+   
+    position: relative;
+    border-radius: 5rem !important;
+    border-bottom-left-radius: 5rem !important;
+    border-bottom-right-radius: 5rem !important;
+
+   
+    box-shadow: rgb(21, 158, 255) 0px 13px 20px -5px, rgb(21, 158, 255) 0px 8px 10px -8px;
+}
+
+.plan_img {
+    /* position: absolute;
+    width: 130px;
+    top: -44px;
+    left: -7px;
+    transform: rotate(14deg); */
+}
+
+.plans h2,
+.plans span {
+    color: var(--bg-color);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plans h2 {
+    margin-top: 1rem;
+}
+
+.plans span {
+    font-size: 15px;
+}
+
+.price{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 1.2rem;
+}
+
+.price span{
+    color: var(--bg-color);
+    font-weight: 600;
+}
+
+.price  .first_tag{
+    font-size: 25px;
+    position: absolute;
+    top: 6px;
+    left: 166px;
+}
+
+.price .secoend_tag {
+    font-size: 60px;
+    background: linear-gradient(to bottom, #3357f7 0%, #1abcfce7 50%, #3e51ff 100%);
+    background-clip: text;
+    -webkit-background-clip: text; 
+    color: transparent;
+    text-fill-color: transparent;
+}
+
+.price .third_tag{
+    font-size: 20px;
+    position: absolute;
+    bottom: -2px;
+    margin-left: 22.5rem;
+    margin-bottom: 5px;
+    
+}
+.price .third_tag-m{
+    font-size: 20px;
+    position: absolute;
+    bottom: 0px;
+    margin-left: 21rem;
+    margin-bottom: 5px;
+}
+.price_details{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    align-items: center;
+
+}
+
+.price_details ul li {
+    color: var(--bg-color);
+    margin-bottom: 5px;
+    text-align: center;
+    font-weight: 500;
+    list-style: none;
+}
+
+.price_details button {
+    width: 250px;
+    margin-top: 1.5rem;
+}
+.btn{
+    height: 3rem;
+    border-radius: 1rem;
+    color: rgba(32, 35, 35, 0.897);
+    font-size: x-large;
+    font-weight: 600;
+   background-color:transparent ;
+   margin-bottom: 3rem;
+}

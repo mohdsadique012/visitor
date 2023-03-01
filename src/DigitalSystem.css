@@ -1,0 +1,50 @@
+.digital{
+    margin: 5rem;
+    padding: 1rem;
+    background-image: url('https://www.shutterstock.com/image-illustration/abstract-light-sky-blue-shades-260nw-1268862877.jpg');
+    background-size: cover;
+    border-top-right-radius: 9rem;
+    border-bottom-left-radius: 9rem;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+   
+    border-color:5px #3357f7 ;
+}
+.digital-flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.digital-color{
+    background: linear-gradient(to bottom, #3357f7 0%, #1abcfc 50%, #043d93ea 100%);
+    background-clip: text;
+    -webkit-background-clip: text; 
+    color: transparent;
+    text-fill-color: transparent;
+    font-family: 'Times New Roman', Times, serif;
+}
+.digital-flex-row{
+    display: flex;
+    flex-direction: row;
+}
+.digital-main{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.digital-box{
+    padding: 2rem;
+    margin: 2rem;
+    background-color: white;
+    border-radius: 3rem;
+    box-shadow: rgb(21, 158, 255) 0px 13px 20px -5px, rgb(21, 158, 255) 0px 8px 10px -8px;
+
+
+}
+.digital-para{
+   
+    color: rgba(0, 0, 0, 0.315);
+    font-style: italic;
+}
+.digital-h{
+    color: gray;
+}
